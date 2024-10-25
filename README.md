@@ -1,11 +1,8 @@
-## Hi there 👋
-
-<!--
-**momade02/momade02** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Hi there 👋 my name is Moritz and I just started my Masters degree at University Tübingen in Data Science in Business and Economics. 
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
+- 🔭 I’m currently working on nothing worth mentioning (haha), but you can look at my R-code of my bachelors thesis. It deals with the linear factor-based replication of hedge fund returns.
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
