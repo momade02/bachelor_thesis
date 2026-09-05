@@ -1,6 +1,7 @@
 ## Bachelor Thesis: Hedge Fund Replication in Times of Change
 
 Bachelor thesis (B.Sc.) at Hochschule der Bayerischen Wirtschaft Munich.
+
 Supervisor & examiner: Prof. Dr. Christian Schmitt.
 
 Can a portfolio of cheap, liquid, exchange-traded risk factors reproduce hedge fund index
