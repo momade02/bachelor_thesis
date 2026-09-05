@@ -4,7 +4,7 @@ Bachelor thesis (B.Sc.) at Hochschule der Bayerischen Wirtschaft Munich.
 Supervisor & examiner: Prof. Dr. Christian Schmitt.
 
 Can a portfolio of cheap, liquid, exchange-traded risk factors reproduce hedge fund index
-returns — including through the COVID-19 crash, the 2020/21 bull market, and the fastest
+returns - including through the COVID-19 crash, the 2020/21 bull market, and the fastest
 rate-hiking cycle in four decades?
 
 Concise answer: it reproduces the shape well and the level poorly. Nine of ten cloned
@@ -40,7 +40,7 @@ strategies fall short of their index.
 
 **Hedge fund returns are largely systematic.** Across ten strategies, nine liquid risk
 factors explain an average of 68% of return variance (R² up to 0.85 for Long/Short
-Equities). Nine of ten strategies carry a highly significant S&P 500 beta — awkward for
+Equities). Nine of ten strategies carry a highly significant S&P 500 beta, which is awkward for
 investors buying hedge funds as portfolio diversifiers.
 
 **Alpha declined, then reversed sharply.** Rolling 60-month intercepts fall steadily from
@@ -51,13 +51,13 @@ bull markets.
 
 **Predicted returns track well; investable clones do not.** Out-of-sample predicted returns
 (intercept included) correlate 0.70+ with realised returns for nine of ten strategies, and
-no paired t-test rejects equality of means. Once the intercept is dropped — because manager
-skill is not purchasable — clone returns run on average 0.12 percentage points per month
+no paired t-test rejects equality of means. Once the intercept is dropped due to manager
+skill not being purchasable, clone returns run on average 0.12 percentage points per month
 below the index, roughly 1.5pp annually. That is in line with Hartley (2019), who finds
 liquid alternative mutual funds trailing hedge funds by 1–2% per year.
 
 **The exception is Long/Short Equities**, the one clone that matches its index (0.42% vs
-0.42% monthly, identical Sharpe ratio of 0.19). Plausibly because the strategy's dominant
+0.42% monthly, identical Sharpe ratio of 0.19). Probably because the strategy's dominant
 exposure is the S&P 500, which is exactly what the factor set represents best.
 
 ## Repository contents
@@ -67,18 +67,15 @@ exposure is the S&P 500, which is exactly what the factor set represents best.
 | `Bachelor_Thesis_Moritz_Maidl.pdf` | Full thesis, 59 pages, including appendix with all regression tables and plots. |
 | `Data.csv` | Monthly panel, Jan 2010 – Sep 2023 (165 observations, 23 columns). |
 | `Skript.R` | Complete R analysis: data preparation, diagnostics, regressions, replications, clones. |
-| `README.md` | This file. |
 
 ## Data
 
-**Period:** January 2010 – September 2023, 165 monthly observations. Deliberately
-post-GFC: it spans one of the longest bull markets on record plus the COVID-19 drawdown,
-the war in Ukraine, high inflation, and the exit from near-zero rates. All series in USD.
+**Period:** January 2010 – September 2023, 165 monthly observations. Post-GFC: it spans one of the longest bull markets on record plus the COVID-19 drawdown, the war in Ukraine, high inflation, and the exit from near-zero rates. All series in USD.
 
 **Format:** semicolon-delimited, comma as decimal separator (German Excel export). Read with
-`readr::read_csv2()`, not `read.csv()`.
+`readr::read_csv2()`.
 
-### Dependent variables — Eurekahedge equal-weighted indices
+### Dependent variables (Eurekahedge equal-weighted indices)
 
 Monthly returns, net of fees, AUM flows excluded. Constituent counts as of download:
 
@@ -95,7 +92,7 @@ Monthly returns, net of fees, AUM flows excluded. Constituent counts as of downl
 | `EHIMultiStrategyReturn` | Multi-Strategy | 355 |
 | `EHIRelativeValueReturn` | Relative Value | 62 |
 
-### Independent variables — risk factors
+### Independent variables (risk factors)
 
 Stored as levels (`*Value`); returns are computed in the script.
 
