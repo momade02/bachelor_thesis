@@ -1,13 +1,13 @@
 ## Bachelor Thesis: Hedge Fund Replication in Times of Change
 
-Bachelor thesis (B.Sc.), Hochschule der Bayerischen Wirtschaft — submitted 15 January 2024.
+Bachelor thesis (B.Sc.) at Hochschule der Bayerischen Wirtschaft Munich.
 Supervisor & examiner: Prof. Dr. Christian Schmitt.
 
 Can a portfolio of cheap, liquid, exchange-traded risk factors reproduce hedge fund index
 returns — including through the COVID-19 crash, the 2020/21 bull market, and the fastest
 rate-hiking cycle in four decades?
 
-Short answer: it reproduces the *shape* well and the *level* poorly. Nine of ten cloned
+Concise answer: it reproduces the shape well and the level poorly. Nine of ten cloned
 strategies fall short of their index.
 
 ---
@@ -310,23 +310,3 @@ Principal sources; full bibliography in the thesis.
 - Hartley, J. (2019). Liquid Alternative Mutual Funds versus Hedge Funds. *Journal of Alternative Investments*, 22(1), 37–56.
 - Hasanhodzic, J. & Lo, A. (2006). Can Hedge-Fund Returns be Replicated?: The Linear Case. SSRN.
 - Soerensen, M. W. & Hansen, E. (2020). Hedge Fund Replication Before, During and After the Financial Crisis. CBS Research Portal.
-
-## Citation
-
-```bibtex
-@thesis{maidl2024hedgefund,
-  author      = {Maidl, Moritz Johannes},
-  title       = {Hedge Fund Replication in Times of Change},
-  type        = {Bachelor's Thesis},
-  institution = {Hochschule der Bayerischen Wirtschaft},
-  year        = {2024},
-  month       = {1},
-  url         = {https://github.com/momade02/bachelor_thesis}
-}
-```
-
-## License
-
-No license file is present, which by default means all rights reserved and no reuse
-permission. Consider adding one — MIT or Apache-2.0 for the code, CC BY 4.0 for the thesis
-text — while keeping the data question above in mind.
